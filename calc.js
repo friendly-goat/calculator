@@ -47,7 +47,9 @@ reader.question("What would you like to calculate? ('+' '-' '*' '/' 'sqrt')", fu
 		case "sqrt":
 			case2();
 			console.log(Math.sqrt(num1));
-			break	
+			break;
+		default:	
+			console.log(mathSymbol , 'not a possible symbol');
 	}
 	reader.close()
 
